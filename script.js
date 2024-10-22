@@ -14,7 +14,9 @@ if (options.includeUppercase) charSet += uppercase;
 if (options.includeLowercase) charSet += lowercase;
 if (options.includeNumbers) charSet += numbers;
 if (options.includeSpecialChars) charSet += specialChars;
-
+if (charSet ===""){alert("Please select at least one option");
+                    return "";
+}
     // TODO: Generate the password based on the selected criteria
     for (let i = 0; i < length; i++){
         const randomIndex = Math.floor(Math.random()*charSet.length);
