@@ -24,12 +24,5 @@ if (options.includeSpecialChars) charSet += specialChars;
 };
 
 // TODO: Add event listener to the button to call generatePassword and display the output
-document.getElementById('generateBtn').addEventListener('click',()=> {
-    const event = new Event('click');
-document.getElementById('generateBtn').dispatchEvent(event);
-});
+
 // BONUS: Implement the copy to clipboard functionality
-document.getElementById('copyBtn').addEventListener('click',()=> {
-    const event = new Event('click');
-document.getElementById('copyBtn').dispatchEvent(event);
-});
