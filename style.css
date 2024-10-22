@@ -18,6 +18,21 @@ body {
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
+label {
+    display:block;
+    margin-bottom: 15px;
+}
+button {
+    background-color:forestgreen;
+    color:#e0e7ff;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 8px;
+}
+input[type="number"] {
+    background-color:#ffffff;
+    padding: 8px;
+}
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
